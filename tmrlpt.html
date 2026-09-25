@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PYRO405™ — Pétards toute l'année</title>
+<meta name="description" content="PYRO405™ — Marque de pétards. Disponible toute l'année. Commande sur Discord.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="htt...ap" rel="stylesheet">
+<style>
+  body { font-family: 'Manrope', sans-serif; background: #000; color: #fff; overflow-x: hidden; margin: 0; }
+  .font-display { font-family: 'Anton', sans-serif; letter-spacing: 0.02em; }
+  .noise-overlay { position: fixed; inset: 0; z-index: 40; pointer-events: none; opacity: 0.06;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  @keyframes ember-flicker { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+  .animate-ember { animation: ember-flicker 1.6s ease-in-out infinite; }
+  ::selection { background: #fff; color: #000; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  details { border-bottom: 1px solid #2C2C2E; }
+  summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+    padding: 1rem 0; font-family: 'Anton', sans-serif; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "▾"; color: rgba(255,255,255,.55); transition: transform .2s; }
+  details[open] summary::after { transform: rotate(180deg); }
+  summary:hover { color: rgba(255,255,255,.7); }
+  .fade-up { opacity: 0; transform: translateY(24px); animation: fadeUp .7s ease-out forwards; }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+<div class="noise-overlay"></div>
+
+<div class="min-h-screen bg-black text-white">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 z-30 flex w-full items-center justify-between border-b border-[#1A1A1A] bg-black/80 px-6 py-4 backdrop-blur-md md:px-12">
+    <a href="#top"><img src="https://customer-assets-agu9un31.emergentagent.net/job_pyro405-fireworks/artifacts/cqnsoida_ChatGPT%20Image%2025%20sept.%202026%2C%2013_48_28.png" alt="Logo PYRO405™" class="h-11 w-11 object-cover"></a>
+    <a href="https://discord.gg/g8qAb7ZRx" target="_blank" rel="noopener" class="flex items-center gap-2 border border-[#2C2C2E] px-4 py-2 font-display text-sm uppercase tracking-wider hover:border-white">
+      Discord
+    </a>
+  </header>
+
+  <main>
+    <!-- HERO — fond noir pur -->
+    <section id="top" class="relative flex min-h-screen flex-col justify-end overflow-hidden bg-black">
+      <div class="relative z-10 px-6 pb-20 pt-40 md:px-12">
+        <p class="fade-up mb-4 flex items-center gap-2 text-sm font-bold uppercase tracking-[0.3em]">
+          <svg class="animate-ember" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          Marque de pétards
+        </p>
+        <h1 class="sr-only">PYRO405™</h1>
+        <img class="fade-up w-full max-w-xs sm:max-w-md lg:max-w-lg" style="animation-delay:.1s" src="https://customer-assets-agu9un31.emergentagent.net/job_pyro405-fireworks/artifacts/cqnsoida_ChatGPT%20Image%2025%20sept.%202026%2C%2013_48_28.png" alt="PYRO405™ — logo fantôme">
+        <p class="fade-up mt-6 max-w-xl text-base text-white/80 md:text-lg" style="animation-delay:.25s">
+          Disponible toute l'année. Tous les pétards sont toujours en production.
+        </p>
+        <div class="fade-up mt-10 flex flex-wrap items-center gap-5" style="animation-delay:.4s">
+          <a href="https://discord.gg/g8qAb7ZRx" target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-white px-8 py-4 font-display text-lg uppercase tracking-wider text-black transition hover:bg-[#E5E5E5] hover:shadow-[0_0_32px_rgba(255,255,255,0.45)]">
+            Rejoindre le Discord ↗
+          </a>
+          <span class="border border-[#2C2C2E] px-4 py-3 font-mono text-sm text-white/70">vendeur : <span class="text-white">y8dqq</span></span>
+        </div>
+        <p class="fade-up mt-8 flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-white/40" style="animation-delay:.7s">
+          ⚡ Commande sur Discord
+        </p>
+      </div>
+    </section>
+
+    <!-- COMPTE À REBOURS -->
+    <section class="px-6 py-24 md:px-12 md:py-32">
+      <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em]">⚡ Sortie — Nouvel An</p>
+      <h2 class="font-display text-4xl uppercase sm:text-6xl">Le compte à rebours est lancé</h2>
+      <p class="mt-4 max-w-xl text-white/70">Pas de date précise : la sortie est visée vers le nouvel an. Les infos tombent en premier sur le Discord.</p>
+      <div class="mt-12 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
+        <div class="border border-[#2C2C2E] bg-[#0A0A0A] p-6 text-center"><p id="cd-days" class="font-display text-5xl sm:text-6xl">00</p><p class="mt-2 text-xs font-bold uppercase tracking-[0.25em] text-white/50">Jours</p></div>
+        <div class="border border-[#2C2C2E] bg-[#0A0A0A] p-6 text-center"><p id="cd-hours" class="font-display text-5xl sm:text-6xl">00</p><p class="mt-2 text-xs font-bold uppercase tracking-[0.25em] text-white/50">Heures</p></div>
+        <div class="border border-[#2C2C2E] bg-[#0A0A0A] p-6 text-center"><p id="cd-min" class="font-display text-5xl sm:text-6xl">00</p><p class="mt-2 text-xs font-bold uppercase tracking-[0.25em] text-white/50">Min</p></div>
+        <div class="border border-[#2C2C2E] bg-[#0A0A0A] p-6 text-center"><p id="cd-sec" class="font-display text-5xl sm:text-6xl">00</p><p class="mt-2 text-xs font-bold uppercase tracking-[0.25em] text-white/50">Sec</p></div>
+      </div>
+    </section>
+
+    <!-- GAMME -->
+    <section class="px-6 py-24 md:px-12 md:py-32">
+      <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em]">La gamme</p>
+      <h2 class="font-display text-4xl uppercase sm:text-6xl">Le stock ne dort jamais</h2>
+      <p class="mt-4 max-w-xl text-white/70">Tous les pétards sont toujours en production. Le catalogue complet se consulte et se commande sur le serveur Discord.</p>
+      <div class="mt-12 grid gap-4 md:grid-cols-2">
+        <div class="group relative overflow-hidden border border-[#2C2C2E]">
+          <img src="https://customer-assets-agu9un31.emergentagent.net/job_pyro405-fireworks/artifacts/yxaibcja_download.jpg" alt="Fantôme PYRO405" class="h-72 w-full bg-black object-contain transition-transform duration-300 group-hover:scale-105">
+          <div class="absolute inset-x-0 bottom-0 bg-black/70 p-6 backdrop-blur-sm">
+            <p class="font-display text-2xl uppercase">Gamme</p>
+            <p class="mt-1 text-sm uppercase tracking-widest">Disponible sur Discord</p>
+          </div>
+        </div>
+        <div class="group relative overflow-hidden border border-[#2C2C2E]">
+          <img src="https://customer-assets-agu9un31.emergentagent.net/job_pyro405-fireworks/artifacts/qv5vmy1w_f02a2081e622398188f33bc2acbe8756.jpg" alt="Masque PYRO405" class="h-72 w-full bg-black object-contain transition-transform duration-300 group-hover:scale-105">
+          <div class="absolute inset-x-0 bottom-0 bg-black/70 p-6 backdrop-blur-sm">
+            <p class="font-display text-2xl uppercase">Catalogue complet</p>
+            <p class="mt-1 text-sm uppercase tracking-widest">Disponible sur Discord</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10">
+        <a href="https://discord.gg/g8qAb7ZRx" target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-white px-8 py-4 font-display text-lg uppercase tracking-wider text-black transition hover:bg-[#E5E5E5] hover:shadow-[0_0_32px_rgba(255,255,255,0.45)]">Voir la gamme sur Discord ↗</a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="border-t border-[#1A1A1A] px-6 py-24 md:px-12 md:py-32">
+      <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em]">FAQ</p>
+      <h2 class="font-display text-4xl uppercase sm:text-6xl">Questions fréquentes</h2>
+      <div class="mt-12 max-w-3xl">
+        <details><summary>Comment commander ?</summary><p class="pb-4 text-white/70">Tout se passe sur Discord : rejoins le serveur et contacte y8dqq pour passer commande.</p></details>
+        <details><summary>C'est disponible quand ?</summary><p class="pb-4 text-white/70">Toute l'année. Tous les pétards sont toujours en production, le stock ne dort jamais.</p></details>
+        <details><summary>Ça sort quand ?</summary><p class="pb-4 text-white/70">Pas de date précise pour l'instant — la sortie est visée vers le nouvel an. Toutes les infos tombent en premier sur le Discord.</p></details>
+        <details><summary>Que faut-il pour acheter ?</summary><p class="pb-4 text-white/70">Une carte d'identité est requise pour tout achat, sans exception.</p></details>
+        <details><summary>Qui est responsable en cas de problème ?</summary><p class="pb-4 text-white/70">Le vendeur décline toute responsabilité en cas d'usage illégal des produits.</p></details>
+        <details><summary>Une autre question ?</summary><p class="pb-4 text-white/70">Tout se passe sur le Discord : rejoins le serveur et pose directement ta question à y8dqq.</p></details>
+      </div>
+    </section>
+
+    <!-- AVERTISSEMENT -->
+    <section class="px-6 pb-24 md:px-12 md:pb-32">
+      <div class="border-2 border-white bg-[#0A0A0A] p-8 md:p-12">
+        <h2 class="font-display text-3xl uppercase sm:text-4xl">⚠ Avertissement</h2>
+        <div class="mt-8 grid gap-8 md:grid-cols-2">
+          <div class="border border-[#2C2C2E] p-6">
+            <p class="font-display text-lg uppercase tracking-wider">🪪 Pièce d'identité</p>
+            <p class="mt-3 text-white/80">Une carte d'identité est requise pour tout achat.</p>
+          </div>
+          <div class="border border-[#2C2C2E] p-6">
+            <p class="font-display text-lg uppercase tracking-wider">⚠ Responsabilité</p>
+            <p class="mt-3 text-white/80">Le vendeur décline toute responsabilité en cas d'usage illégal des produits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCORD + WIDGET EN DIRECT -->
+    <section class="border-t border-[#1A1A1A] px-6 py-24 md:px-12 md:py-32">
+      <div class="flex flex-col items-start gap-8 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em]">Commander</p>
+          <h2 class="font-display text-5xl uppercase leading-[0.95] sm:text-7xl">Tout se passe<br>sur Discord</h2>
+          <p class="mt-6 max-w-md text-white/70">Rejoins le serveur et contacte <span class="font-mono text-white">y8dqq</span> pour passer commande.</p>
+          <!-- Widget membres en direct -->
+          <div id="discord-widget" class="mt-8 hidden flex-wrap gap-4">
+            <div class="border border-[#2C2C2E] bg-[#0A0A0A] px-6 py-4">
+              <p class="flex items-center gap-2 font-display text-3xl">
+                <span class="inline-block h-2.5 w-2.5 animate-pulse rounded-full bg-white"></span>
+                <span id="widget-online">0</span>
+              </p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-[0.25em] text-white/50">En ligne</p>
+            </div>
+            <div class="border border-[#2C2C2E] bg-[#0A0A0A] px-6 py-4">
+              <p id="widget-members" class="font-display text-3xl">0</p>
+              <p class="mt-1 text-xs font-bold uppercase tracking-[0.25em] text-white/50">Membres</p>
+            </div>
+          </div>
+        </div>
+        <a href="https://discord.gg/g8qAb7ZRx" target="_blank" rel="noopener" class="inline-flex items-center gap-3 bg-white px-8 py-4 font-display text-xl uppercase tracking-wider text-black transition hover:bg-[#E5E5E5] hover:shadow-[0_0_32px_rgba(255,255,255,0.45)]">Rejoindre le serveur ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-[#1A1A1A] px-6 py-10 md:px-12">
+    <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+      <img src="https://customer-assets-agu9un31.emergentagent.net/job_pyro405-fireworks/artifacts/cqnsoida_ChatGPT%20Image%2025%20sept.%202026%2C%2013_48_28.png" alt="Logo PYRO405™" class="h-12 w-12 object-cover">
+      <p class="max-w-xl text-xs leading-relaxed text-white/40">Une carte d'identité est requise pour tout achat. Le vendeur décline toute responsabilité en cas d'usage illégal des produits. Disponible toute l'année.</p>
+      <a href="https://discord.gg/g8qAb7ZRx" target="_blank" rel="noopener" class="font-mono text-sm text-white/60 hover:text-white">discord.gg/g8qAb7ZRx</a>
+    </div>
+  </footer>
+</div>
+
+<script>
+/* ---- Compte à rebours vers le 1er janvier ---- */
+const now0 = new Date();
+let target = new Date(now0.getFullYear(), 0, 1);
+if (now0 >= target) target = new Date(now0.getFullYear() + 1, 0, 1);
+const pad = n => String(n).padStart(2, "0");
+function tick() {
+  const diff = Math.max(0, target - new Date());
+  document.getElementById("cd-days").textContent = pad(Math.floor(diff / 86400000));
+  document.getElementById("cd-hours").textContent = pad(Math.floor((diff % 86400000) / 3600000));
+  document.getElementById("cd-min").textContent = pad(Math.floor((diff % 3600000) / 60000));
+  document.getElementById("cd-sec").textContent = pad(Math.floor((diff % 60000) / 1000));
+}
+tick();
+setInterval(tick, 1000);
+
+/* ---- Widget Discord en direct (membres / en ligne) ---- */
+async function loadDiscordStats() {
+  try {
+    const res = await fetch("https://discord.com/api/v9/invites/g8qAb7ZRx?with_counts=true");
+    if (!res.ok) return;
+    const data = await res.json();
+    if (typeof data.approximate_member_count !== "number") return;
+    document.getElementById("widget-online").textContent = data.approximate_presence_count;
+    document.getElementById("widget-members").textContent = data.approximate_member_count;
+    const widget = document.getElementById("discord-widget");
+    widget.classList.remove("hidden");
+    widget.classList.add("flex");
+  } catch (e) { /* le widget reste masqué si l'API ne répond pas */ }
+}
+loadDiscordStats();
+setInterval(loadDiscordStats, 60000);
+</script>
+</body>
+</html>
